@@ -20,7 +20,7 @@ There are 3 special tokens to identify the prompts:
 
 ### Example
 
-**Example 1, one line [EXAM] and [WANT] and output**
+**Example 1, one line [EXAM] and [WANT]**
 
 ```python
 from regext import Regext
@@ -49,7 +49,7 @@ Total: 3, True: 3, False: 0
 '(?<=\\/\\/www\\.)\\w+(?=\\.com)'
 ```
 
-**Example 2, multi line [EXAM] and [WANT] and output**
+**Example 2, multi line [EXAM] and [WANT]**
 Multi line for `[EXAM]` should be forced to be one line since it's not really matter. Meanwhile multi line `[WANT]` needs to be seperated with double semicolon `;;`. See the third `[EXAM]` and `[WANT]` pair.
 
 ```python
