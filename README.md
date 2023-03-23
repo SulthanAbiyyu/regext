@@ -10,7 +10,7 @@ pip install --upgrade regext
 
 ## Usage
 
-There's 3 special token to identify the prompts:
+There are 3 special token to identify the prompts:
 
 1. `[DESC]` for description of the regex task
 2. `[EXAM]` for the input string example
