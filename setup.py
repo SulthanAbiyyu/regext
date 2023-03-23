@@ -9,10 +9,9 @@ with open("README.md") as f:
 setup(
     name='regext',
     packages=['regext'],
-    version='0.0.3',
+    version='0.0.4',
     description='Simple regex assistant with OpenAI API and prompt engineering',
     author='Sulthan Abiyyu',
     license='MIT',
     install_requires=requirements,
-    long_description=long_description,
 )
