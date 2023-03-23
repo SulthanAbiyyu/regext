@@ -2,6 +2,12 @@
 
 Regex is hard.
 
+## Installation
+
+```bash
+pip install --upgrade regext
+```
+
 ## Usage
 
 There's 3 special token to identify the prompts:
