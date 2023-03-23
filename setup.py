@@ -8,8 +8,8 @@ with open("README.md") as f:
 
 setup(
     name='regext',
-    packages=['src'],
-    version='0.0.1',
+    packages=['regext'],
+    version='0.0.2',
     description='Simple regex assistant with OpenAI API and prompt engineering',
     author='Sulthan Abiyyu',
     license='MIT',
